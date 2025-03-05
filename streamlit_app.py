@@ -7,7 +7,7 @@ import streamlit as st
 from streamlit.locale import gettext as _
 from PIL import Image
 
-st.set_page_config(layout="wide")
+st.set_page_config(page_title="30 days of Streamlit", layout="wide")
 
 query_params = st.experimental_get_query_params()
 
